@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.108">
+    <testcase classname="feature to test ebebek website" name="Find product" time="0.008">
+        <system-out><![CDATA[Given user is on website....................................................passed
+When search bar write biberon...............................................passed
+And search bar click........................................................passed
+Then find and click first product...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test ebebek website" name="Find product 2" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException"><![CDATA[Given click add basket button...............................................pending
+When click see basket button................................................skipped
+And check basket for add product............................................skipped
+Then complete the program...................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
